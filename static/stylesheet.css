@@ -1,0 +1,23 @@
+html, body {
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+ }
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  /* opacity: 0.10; */
+  filter: brightness(30%);
+}
+
+.card {
+  position: absolute;
+  width: 500px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
